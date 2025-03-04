@@ -5,17 +5,13 @@ public class max_min {
         int max = arr[0];
 
         for (int i = 0; i< arr.length;i++)
-        {
-            if(arr[i] < min)
-            {
-                min = arr[i];
-            }
-            else if (arr[i] > max)
-            {
-                max = arr[i];
-            }
+        { if(arr[i] < min){
+            min = arr[i];
+        } else if (arr[i] > max) {
+             max = arr[i]; 
         }
-
+     }
+        
         System.out.println("this is the minimum in this array = " +min);
         System.out.println("this is the maximum in this array = " +max);
 
