@@ -1,6 +1,6 @@
 public class Palindrome {
     public static void main(String[] args) {
-        int[] array = {1, 2, 3, 3, 1}; // Input array
+        int[] array = {1, 2, 3, 2, 1}; // Input array
         boolean isPalindrome = true;   // Flag to check palindrome
 
         int i = 0, j = array.length - 1;
